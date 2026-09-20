@@ -152,7 +152,7 @@ print(feature_vectors)
 
 
 #Getting the similarity scores
-#Store the similarit scores of all the movies
+#Store the similarity scores of all the movies
 # [PRODUCTION FIX] Do not calculate the complete N x N matrix for every request.
 # It is expensive in memory for a large dataset.
 print("Feature matrix shape:", feature_vectors.shape)
